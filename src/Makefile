@@ -29,5 +29,5 @@ $(BIN_DIR)/tsvc_% : tsvc_%.o $(COMMON_FILES)
 	@true
 
 clean :
-	rm -f *.o *.s
+	rm -f *.o *.s *.miss *.i *.vect
 
